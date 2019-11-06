@@ -22,7 +22,7 @@ with open(filePath, "r") as file:
 
 testCases = text.split("\n")
 fig, axs = plt.subplots(
-    int(testCases[0]), sharex=True, sharey=True, gridspec_kw={'hspace': 0})
+    int(testCases[0]), gridspec_kw={'hspace': 0})
 
 case = 0
 i = 1
